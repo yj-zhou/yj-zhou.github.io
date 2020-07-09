@@ -148,6 +148,7 @@
 
 /* Section/Article */
 
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -1017,6 +1018,7 @@
 
 	.wrapper {
 		padding: 6em 0em 4em;
+		background: rgb(228, 228, 228);
 	}
 
 		.wrapper.style1 {
