@@ -16,14 +16,15 @@
 
 	body, input, select, textarea {
 		color: #444;
-		font-family: "Lato", Helvetica, "微软雅黑", sans-serif;
+		/* font-family: "Lato", Helvetica, "微软雅黑", sans-serif; */
+		font-family: Tahoma, "Trebuchet MS", Verdana, Cambria, Calibri, Arial, Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1, sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
 		line-height: 1.65em;
 	}
 
 	a {
-		color: #4dac71;
+		color: blue;
 		text-decoration: underline;
 	}
 
@@ -920,13 +921,13 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #cee8d8;
+						color: #fff;
 						display: inline-block;
 						text-decoration: none;
 					}
 
 						#header nav > ul > li a:hover {
-							color: #ffffff;
+							color: #dbdbdb;
 						}
 
 					#header nav > ul > li:first-child {
@@ -963,8 +964,8 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #ffffff;
-		padding: 16em 0em 14em;
-		text-align: center;
+		padding: 16em 15em 14em 15em;
+		text-align: left;
 	}
 
 		#banner h2 {
@@ -973,15 +974,18 @@
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
+			text-align: center;
 		}
 
 		#banner p {
 			font-size: 1.5em;
 			margin: 1.5em 0 0 0;
+			text-align: center;
 		}
 
 		#banner .actions {
 			margin: 3em 0 0 0;
+			text-align: center;
 		}
 
 		#banner .button {
@@ -993,16 +997,6 @@
 			#banner .button:hover {
 				background-color: rgba(255, 255, 255, 0.2);
 			}
-		#banner .button {
-			background-color: transparent;
-			border: 1px solid #ffffff;
-			font-weight: 300;
-		}
-
-			#banner .button:hover {
-				background-color: rgba(255, 255, 255, 0.2);
-			}
-
 /* One */
 		#one .button {
 			background-color: transparent;
