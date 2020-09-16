@@ -19,7 +19,11 @@
 	}
 
 	#header {
-		display: none;
+		/* display: none; */
+	}
+
+	#header h1 {
+		left: 5em;
 	}
 
 /* Banner */
@@ -35,7 +39,7 @@
 		height: 100%;
 		left: 0;
 		position: absolute;
-		top: 0;
+		top: 0.8em;
 		width: 100%;
 	}
 
