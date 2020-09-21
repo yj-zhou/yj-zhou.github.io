@@ -146,6 +146,9 @@
 	.align-right {
 		text-align: right;
 	}
+	span.tag {
+		color:red;
+	}
 
 /* Section/Article */
 
